@@ -26,17 +26,17 @@ function Navbar() {
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item ">
-                                <Link className="nav-link active text-white" aria-current="page"  to='/Task3_Villa'  onClick={() => { none() }}>Home</Link>
+                                <Link className="nav-link active text-white" aria-current="page"  to='/real-estate-platform'  onClick={() => { none() }}>Home</Link>
                             </li>
                             <li className="nav-item" >
-                                <Link className="nav-link text-white" to="/Task3_Villa/Property" onClick={() => { none() }}>Property</Link>
+                                <Link className="nav-link text-white" to="/real-estate-platform/Property" onClick={() => { none() }}>Property</Link>
                             </li>
                             <li className="nav-item" >
-                                <Link className="nav-link text-white" to='/Task3_Villa/Single_Property' onClick={() => { none() }}>Property Details</Link>
+                                <Link className="nav-link text-white" to='/real-estate-platform/Single_Property' onClick={() => { none() }}>Property Details</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link  text-white" aria-disabled="true" to="/Task3_Villa/contact_us" onClick={() => { none() }}>Contact US</Link>
+                                <Link className="nav-link  text-white" aria-disabled="true" to="/real-estate-platform/contact_us" onClick={() => { none() }}>Contact US</Link>
                             </li>
 
                             <li className="nav-item but" onClick={() => { none() }}>
@@ -89,10 +89,10 @@ function Navbar() {
             <div className='navbar_two'>
                 <h2>VILLA</h2>
                 <div className='flex'>
-                    <Link to='/Task3_Villa'>Home</Link>
-                    <Link to="/Task3_Villa/Property">Property</Link>
-                    <Link to='/Task3_Villa/Single_Property'>Property Details</Link>
-                    <Link to="/Task3_Villa/contact_us">Contact US</Link>
+                    <Link to='/real-estate-platform'>Home</Link>
+                    <Link to="/real-estate-platform/Property">Property</Link>
+                    <Link to='/real-estate-platform/Single_Property'>Property Details</Link>
+                    <Link to="/real-estate-platform/contact_us">Contact US</Link>
                     <button> <div><FaCalendar /></div>  Schedule a visit</button>
                 </div>
             </div>

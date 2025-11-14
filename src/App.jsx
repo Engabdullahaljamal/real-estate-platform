@@ -22,10 +22,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/Task3_Villa' element={<LandingPage />} />
-        <Route path='/Task3_Villa/contact_us' element={<ContactUs />} />
-        <Route path='/Task3_Villa/Property' element={<Property />} />
-        <Route path='/Task3_Villa/Single_Property' element={<SingleProperty />} />
+        <Route path='/real-estate-platform' element={<LandingPage />} />
+        <Route path='/real-estate-platform/contact_us' element={<ContactUs />} />
+        <Route path='/real-estate-platform/Property' element={<Property />} />
+        <Route path='/real-estate-platform/Single_Property' element={<SingleProperty />} />
       </Routes>
       <Footer />
 
